@@ -1,4 +1,4 @@
-import styles from "./HomeScreen.module.scss";
+import styles from "../HomeScreen/HomeScreen.module.scss";
 
 function HomeScreen() {
   return (
