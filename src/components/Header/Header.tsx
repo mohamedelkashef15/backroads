@@ -1,11 +1,11 @@
-import HomeScreen from "../HomeScreen/HomeScreen";
+import Home from "../Home/Home";
 import Navbar from "../Navbar/Navbar";
 
 function Header() {
   return (
     <header className="header">
       <Navbar />
-      <HomeScreen />
+      <Home />
     </header>
   );
 }

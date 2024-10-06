@@ -1,6 +1,6 @@
-import styles from "../HomeScreen/HomeScreen.module.scss";
+import styles from "./HomeScreen.module.scss";
 
-function HomeScreen() {
+function Home() {
   return (
     <div id="home" className={styles.headerContent}>
       <h1>BACKROADS APP</h1>
@@ -12,4 +12,4 @@ function HomeScreen() {
   );
 }
 
-export default HomeScreen;
+export default Home;
