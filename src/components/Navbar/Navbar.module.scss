@@ -1,7 +1,12 @@
 @import "../../global.scss";
-
+.navbar * {
+  z-index: 10;
+}
 .navbar {
   background-color: $bg-primary;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .nav {
@@ -11,7 +16,7 @@
   max-width: 1200px;
   margin: auto;
   padding: 0 1rem;
-  height: 80px;
+  height: 70px;
   ul {
     display: flex;
 

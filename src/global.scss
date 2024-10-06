@@ -1,4 +1,4 @@
-$cyan: #2aaeba;
+$cyan: #2aafbb;
 $dark-blue: #0f2a42;
 $light-blue: #617d98;
 $bg-primary: #f1f5f8;
@@ -26,4 +26,23 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.btn {
+  padding: 20px 35px;
+}
+
+.btn.btn-primary {
+  color: $cyan;
+  background-color: $bg-primary;
+  font-size: 22px;
+  letter-spacing: 3px;
+  border: 1px solid $bg-primary;
+
+  &:hover {
+    background-color: transparent;
+    color: $bg-primary;
+    border: 1px solid $bg-primary;
+    transition: all 0.5s ease;
+  }
 }
