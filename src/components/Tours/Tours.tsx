@@ -73,7 +73,7 @@ const toursData: ITours[] = [
 
 function Tours() {
   return (
-    <section className={styles.tours}>
+    <section id="tours" className={styles.tours}>
       <div className="container">
         <SectionTitle name1="FEATURED" name2="TOURS" />
         <Items />

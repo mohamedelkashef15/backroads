@@ -4,7 +4,7 @@ import SectionTitle from "../SectionTitle";
 
 function About() {
   return (
-    <section className={styles.about}>
+    <section id="about" className={styles.about}>
       <div className="container">
         {/* <h2 className="heading-2">
           ABOUT <span className="text-primary">US </span>

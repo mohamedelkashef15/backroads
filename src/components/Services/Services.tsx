@@ -27,7 +27,7 @@ const servicesData: IServicesItem[] = [
 
 function Services() {
   return (
-    <section className={styles.services}>
+    <section id="services" className={styles.services}>
       <div className="container">
         <SectionTitle name1="OUR" name2="SERVICES" />
         <Items />
