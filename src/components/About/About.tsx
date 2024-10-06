@@ -1,13 +1,15 @@
 import styles from "./About.module.scss";
 import about from "../../images/about.jpeg";
+import SectionTitle from "../SectionTitle";
 
 function About() {
   return (
     <section className={styles.about}>
       <div className="container">
-        <h2>
+        {/* <h2 className="heading-2">
           ABOUT <span className="text-primary">US </span>
-        </h2>
+        </h2> */}
+        <SectionTitle name1="ABOUT" name2="US" />
         <div className={styles.row}>
           <div className={styles.aboutImg}>
             <div className={styles.border}></div>
