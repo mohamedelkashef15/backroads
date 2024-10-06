@@ -9,3 +9,14 @@ export interface IServicesItem {
   heading: string;
   content: string;
 }
+
+export interface ITours {
+  id?: number;
+  img: string;
+  title: string;
+  content: string;
+  location: JSX.Element;
+  initialPrice: string;
+  time: string;
+  date: string;
+}
