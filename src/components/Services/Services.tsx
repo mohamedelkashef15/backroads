@@ -1,29 +1,7 @@
 import { IServicesItem } from "../interfaces";
 import SectionTitle from "../SectionTitle";
 import styles from "./Services.module.scss";
-import { faWallet, faTree, faSocks } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-const servicesData: IServicesItem[] = [
-  {
-    id: 1,
-    icon: <FontAwesomeIcon icon={faWallet} />,
-    heading: "Saving Money",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-  },
-  {
-    id: 2,
-    icon: <FontAwesomeIcon icon={faTree} />,
-    heading: "Endless Hiking",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-  },
-  {
-    id: 3,
-    icon: <FontAwesomeIcon icon={faSocks} />,
-    heading: "Amazing Comfort",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-  },
-];
+import { servicesData } from "../../data";
 
 function Services() {
   return (
