@@ -32,7 +32,7 @@ function Footer() {
           </a>
         </div>
         <p>
-          copyright © Backroads travel tours company 2024. Made by
+          copyright © Backroads travel tours company {new Date().getFullYear()}. Made by
           <a href="https://mohamedelkashef.com"> Mohamed Elkashef</a>
         </p>
       </div>
